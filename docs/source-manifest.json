@@ -1,0 +1,1208 @@
+{
+  "date": "2026-10-12",
+  "note": "Original source hashes before documented publication cleanup; paths are repository-relative. Build outputs, caches, raw private conversations, and vendor manuals excluded.",
+  "files": [
+    {
+      "path": "build-macos.sh",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "336bae38f0817ec3760b0c391aca8b92ba71532c5e69773356e4cb5e2c007e54"
+    },
+    {
+      "path": "index.html",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "532f0299fa0d2f85075370d731c01602d40c3a8454ef07c0840153a8cacbae26"
+    },
+    {
+      "path": "build-web.mjs",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "fbfc614dd66412ce6c5c6df016c624bbea2294259b6089596a7c0feb83df8503"
+    },
+    {
+      "path": "README.md",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "fcc747425f29bc821586a7899e7f3eaadec3515a2a58b687fc47fe0a976edf3d"
+    },
+    {
+      "path": "package.json",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "b8d8d13716987a3debe724cf43970ac84b34bff5041b6fed5a47ef2302803de6"
+    },
+    {
+      "path": "serve.mjs",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "68759920fa916b190517fc93e285c4e91dcfe58cefc20e03bb43d267ed17af31"
+    },
+    {
+      "path": "macos/MosaicMidi.m",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "5b4c676c4e02ce3bc557b00ace5a6efeb60bbcc1d0f8302e9271c7e2534c5e8b"
+    },
+    {
+      "path": "macos/MosaicMidiTest.m",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "2c381f9ab28a391b97de567d839ee8070f34eb4c3dbbb05296b6aa81a6b464a5"
+    },
+    {
+      "path": "macos/main.m",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "abb7560a5aee935f393d9f852173b0c311533f81bc9587ea16a19bc5e79060a5"
+    },
+    {
+      "path": "macos/Info.plist",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "a372976354de8c7a466b80bd385e8b89629140b90e670093d6fff0867935cbf5"
+    },
+    {
+      "path": "macos/MosaicMidi.h",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "ce90652efde5cbd546c0242aad5d02d9bb3f71b517e496a84bfe6608e8523ad3"
+    },
+    {
+      "path": "test/captured-inventory.test.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "7115e5e636889e6eb63e8a1b36c03b81db86e41bfeba68d41859a9c9028186df"
+    },
+    {
+      "path": "test/ir-conversion.test.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "907109039c335bffe7e07d4c226eaf3d54508f3b586ac12da0b16c15dfac1350"
+    },
+    {
+      "path": "test/slot-map.test.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "95fcf01b09c4c5da66297c14289ada9581ce55aa1a31e5bb6357bfc644964747"
+    },
+    {
+      "path": "test/effect-types.test.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "767a263604077f7c7bfc10a85233c2dffdc3c92071ddc6c34b6a5b5c7a16cffd"
+    },
+    {
+      "path": "test/sysex.test.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "193543a1128b6b6f32dcee692de63c7235f9c7161b3287b53121984d8dd749db"
+    },
+    {
+      "path": "test/hardware-midi.test.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "6ebecb3b3c6932ea7305d37104d52dea6759bfe16cd3d1c3d04a571d635f7f9b"
+    },
+    {
+      "path": "test/file-validation.test.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "200a5841a64692a1a05e25f675491f2868b1992f88bc90be62d875ac5baa81b5"
+    },
+    {
+      "path": "test/midi-events.test.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "b2be0cc7a54f12dee9783d03127488a51bc132bd30134748ce7951aaeb12c863"
+    },
+    {
+      "path": "hardware-capture/amp_probe_test.c",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "6a00ed9ee68dcc81abc51d21058ff86a32d6a1af53cd62659b9bb79585a3c249"
+    },
+    {
+      "path": "hardware-capture/amp_slot_probe.c",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "c6860549c9a3d19ca4e51e063c2a6ab5e5febf791caa255c3814ca42a027a842"
+    },
+    {
+      "path": "hardware-capture/midi_probe.c",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "0cd29105a4a980b645f139a4d2d2c477f59af2c00c235ab35af08d22aa73b106"
+    },
+    {
+      "path": "hardware-capture/footswitch_monitor.c",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "973acdede9f234a0142cf2e77a30f4ac8a7bf646476951c8f453788c184aa2d2"
+    },
+    {
+      "path": "hardware-capture/run_probes.sh",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "fb77b8601c9ff9e746b298a756d544366d943c17faf0813638c3b4caef9ebda5"
+    },
+    {
+      "path": "hardware-capture/bluetooth_probe.m",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "262cca71100e72638319afb174bebc9bfe3d57b00d06e22c2862919aa81b9754"
+    },
+    {
+      "path": "hardware-capture/usb_probe.c",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "d5c4faf0b5441df30bd71f77849d55d866ebe56cafff7986b9f49bec3a6b0b61"
+    },
+    {
+      "path": "hardware-capture/HARDWARE_FINDINGS.md",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "b7746cd74b2db68a789048b95d5efebbfec27d39357f1fe62557b2c26b9fba4d"
+    },
+    {
+      "path": "hardware-capture/ble_probe.m",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "021206e64c004c01b7e755a358ead42e443986830ca06b0d4834260b23fad72a"
+    },
+    {
+      "path": "outputs/mosaic_passive_20260911.c",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "fe5d6fd86045b22f8a0afbb3d781903f8ee4a6ec44d265a5e7eb9dcca65b2fcd"
+    },
+    {
+      "path": "src/styles.css",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "552c120b1bfecfc52be5dd85714528bc9c786a83c19a9476e30a18427fb1c786"
+    },
+    {
+      "path": "src/main.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "e7ea02dc909fbcc2a41e66cfd3beba16d70681fda53beee25e3e8c936229c0f5"
+    },
+    {
+      "path": "src/effects.css",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "ce4503019c247a13508f6aec57ec7b95839e61bf66420a9a8bc307129834a673"
+    },
+    {
+      "path": "src/app.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "56bc52e885dde724adf950c7828ad1695f696073202c66cd2cc6bd149e3566f1"
+    },
+    {
+      "path": "src/core/capture-store.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "a9ceb6d4ebb1737e173e35713be6772a66451559655512bb5bff6b9b11e00e5d"
+    },
+    {
+      "path": "src/core/preset-store.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "ed0be3b8596c2f7c0b0f3ccf17cea636f92779a8a91a0ed7362635a7a5f1e88a"
+    },
+    {
+      "path": "src/core/ir-conversion.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "9d5639d5a6b645a1de1d041fefc41891b91b5de2831e2499e94789affa92fd9e"
+    },
+    {
+      "path": "src/core/captured-inventory.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "7e953ede151d7e7a0ba4a110039979e28aabff7b84278c74c5348422532c682a"
+    },
+    {
+      "path": "src/core/effect-types.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "1dfac79cdd9acd7fad3be102b651d25816b9944abd850243150776e6fcef8b94"
+    },
+    {
+      "path": "src/core/slot-map.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "b04e45077e68c0d3d12ef589c0dcf3d34d97dbe095d88ec9d9db3b140a4dcdc7"
+    },
+    {
+      "path": "src/core/file-validation.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "8d4ac68ed642bfa4d53eb1a0afb74d1e7eb99954adeee144e8d34eb122aea223"
+    },
+    {
+      "path": "src/transports/hardware-midi.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "cee286b8c6b2ff141a6997c241e8174599b4e665adffb98a365c0ff9f418cf1d"
+    },
+    {
+      "path": "src/transports/simulated-mosaic.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "f732ddbca3aa98392d1dc0bd8e9326a0d504a6219fd7865cdcddd36a6c004e10"
+    },
+    {
+      "path": "src/protocol/sysex.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "b15cabf7af1b8eb8656aa18f634edfa56b29648ec369ff39da854b3af4ec12ca"
+    },
+    {
+      "path": "src/protocol/midi-events.js",
+      "source_group": ".",
+      "sha256_before_publication_cleanup": "752806100016762f7aa8caac432e58ecafd517246d710264d71085f74e8f25a8"
+    },
+    {
+      "path": "archive/offline-editor/MASTER.md",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "0348eeb5638ddbd937ad06bbf45b2c0116af50186982c08ceb284bbd0dc6f2dd"
+    },
+    {
+      "path": "archive/offline-editor/OFFLINE-EDITOR.md",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "c3ae58416e11504d064b60c25984e405ea41217280a3a83b2ce1c208fb53479a"
+    },
+    {
+      "path": "archive/offline-editor/PROTOCOL.md",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "9d3309911492707f894d1b8d48dbf12231f55d13865b26722bcc5669832fe0ef"
+    },
+    {
+      "path": "archive/offline-editor/native/JimCommanD.swift",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "6f9d01b9164dd9bf6b338313a65aabeee6fc089f06f50493077df083294736dd"
+    },
+    {
+      "path": "archive/offline-editor/native/README.md",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "4e301655242b068ddbfaaadb1f7a6cff5680940896eff6a066737381ddd41c60"
+    },
+    {
+      "path": "archive/offline-editor/native/build.sh",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "09833827c64dbd4ab76295b750ed8a041c0b5c5f634102a7c8159011f3d6f71f"
+    },
+    {
+      "path": "archive/offline-editor/native/Info.plist",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "5ff768d7e787f74755fbb4a3f282c5240e64bb9b6f84a5b2c3b92877fe5b6c6b"
+    },
+    {
+      "path": "archive/offline-editor/backend/test_protocol.py",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "c812eef583f4a325bd3bd613ef1ca90f57692200f836c31b32f5de035d9aa881"
+    },
+    {
+      "path": "archive/offline-editor/backend/protocol.py",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "d8cf37346340199bb7220db59fe86858e51577c23ded002daf290151bc0e99c7"
+    },
+    {
+      "path": "archive/offline-editor/backend/inspect_midi.py",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "3c925b5166e329039c1f929c4ebc6b412e6d6153e5e40eadba84bbf9394bedb2"
+    },
+    {
+      "path": "archive/offline-editor/backend/midi-check.html",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "a74de82ae17a9aea0406f39098f22e2cb1e18e50772aca4e015c104377127de2"
+    },
+    {
+      "path": "archive/offline-editor/gui/pnpm-lock.yaml",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "811aecd91f12d4f77c1b88c0ea1edd5127b6bf2150e668e62659cadaac366460"
+    },
+    {
+      "path": "archive/offline-editor/gui/index.html",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "2283e8addc45fdb4878b2cbfdc52e36ba21f48017d4908a865a96537667c901c"
+    },
+    {
+      "path": "archive/offline-editor/gui/.gitignore",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "eee6568c404ffb70b9e32300fe6f08ffc8defd139e4a4c1d973c85701904322d"
+    },
+    {
+      "path": "archive/offline-editor/gui/package-lock.json",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "e73c46458bdaa5ce34cae6d581d8d5192de8e54b375b04cf9d6c35a9b957b2f1"
+    },
+    {
+      "path": "archive/offline-editor/gui/package.json",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "5ece0b0ec2497377db321e4ce6d4f1869655b05108ec984ab09471c312d60c78"
+    },
+    {
+      "path": "archive/offline-editor/gui/.gitattributes",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "fdd53ecc7bf79a69d3ef228ec98e0151f10e02702b90b553f04785b61db68354"
+    },
+    {
+      "path": "archive/offline-editor/gui/tsconfig.json",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "9a1e96d63eaccd5416b2f78ecaccf2b3a27ca71e213fa5859cf5349c66123bf9"
+    },
+    {
+      "path": "archive/offline-editor/gui/vite.config.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "63ed87b3445f8424b38769bc74c47fb49e321914acbfd494cb8d5908375ac0e3"
+    },
+    {
+      "path": "archive/offline-editor/gui/.mise.toml",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "6d2834ef5f78a7dc4c384570a62b895137fdf63df171d237f0747932bd001435"
+    },
+    {
+      "path": "archive/offline-editor/gui/tests/controller.test.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "771d5ed6bc6f18d3de69add4a01e79f28aac4c00f8f4bcde208445846598f682"
+    },
+    {
+      "path": "archive/offline-editor/gui/tests/assets.test.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "e00c01ee618e2bbadbf18380341778c37c8eb4e4ab84e7d5e33783068f00c309"
+    },
+    {
+      "path": "archive/offline-editor/gui/tests/project.test.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "e9b0c70f607e40044b0eb9abdc84eb9ffb3f223e7d8b8cbaf9ef3b470c81fd7d"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/project.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "2e045d7930043cb400f36a9d269acedd5721afcfa86c31f0d427146d4410c14b"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/App.tsx",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "af56c21b4073dc4287c17232aa6b78f60a7b3c139b2ad9a691d82e826b8e5167"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/main.tsx",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "5f49dce6e6cc4b5d678cf529ef892af0ab7dfa6afb300b11ad559224019b8b05"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/useProject.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "4cd240d4a6392511b3d543edf42ea2b4015f698b0793074156e2d16fa70880a6"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/assets.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "fca454026866dae249e99a0bd784aede4469fafc2f2faefdaa770898f129e350"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/MidiDiagnostics.tsx",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "5d13238cb7254d4e649b93632e32b30e89740494fcd7aa2693b79914f371e9ad"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/index.css",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "dbeeadb57a880b1452c3860c80556e1aead47bda6fac6769b8b1d9e576f1788e"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/model.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "9772e01f5eec2429b49d5402822353a72075dbd1855ec3cbb21440cce1132158"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/LibraryPanel.tsx",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "413be1e53f97790afdca70903286b747cf7021bbec372866eebca7a920ac29c4"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/vite-env.d.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/amplifiers.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "b77ac6dbfd27ba5a7a0fbb17946679ce136aa728c6e0cc1f91a755f026706107"
+    },
+    {
+      "path": "archive/offline-editor/gui/src/controller.ts",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "5a699e7b431f9a5e6df4adde46387a0cd6430c7682282619054f46f6f813fba9"
+    },
+    {
+      "path": "archive/offline-editor/reference/gui-source-export.json",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "040d8735fcd4f39618decb09908786710e2890240cdedf0d747a17245d6174bf"
+    },
+    {
+      "path": "archive/offline-editor/reference/native-linkage.txt",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "df07e78a9d69bb58414960cf154c95e9ab94993dac5f0fde700d5d4a25ca273d"
+    },
+    {
+      "path": "archive/offline-editor/reference/device-observations.json",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "48dde6c8cb382c17d0e95d4a77a276e812fcaabfa7c2630c6fb1a4f61cd31c81"
+    },
+    {
+      "path": "archive/offline-editor/reference/protocol-assembly.txt",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "a2e819966e2cdbbc53802902f36274686b73b6e486af2273b2ebbd367a349658"
+    },
+    {
+      "path": "archive/offline-editor/reference/coremidi-diagnostic.json",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "3b2ecfaf1a49fc53f4790af5335f8a1ce83315e0d008b2aad156a902fbce2837"
+    },
+    {
+      "path": "archive/offline-editor/reference/inventory.json",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "b8353d26d6bc9599122e6be177518ff1255b0fc727c21a85130faee62c987b1f"
+    },
+    {
+      "path": "archive/offline-editor/reference/verification.json",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "1f52aecc7c75b53de013e57e058b08e50351519279bc68e7bb02fd545505cd78"
+    },
+    {
+      "path": "archive/offline-editor/reference/slotinfo.txt",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "0aa1c870d8e4a65f3d5225cce7f95e7716afe5f7cd9733edc302c3c509504e61"
+    },
+    {
+      "path": "archive/offline-editor/reference/web-midi-diagnostic.json",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "2376c9d2a82c103211d3a7ce6a906f5c132efe72e475c41e1766346747d24281"
+    },
+    {
+      "path": "archive/offline-editor/reference/offsets.txt",
+      "source_group": "archive/offline-editor",
+      "sha256_before_publication_cleanup": "4a5aac6998c4a13c7b4801998d59c6ec55edbfd0c3bf990268ab8e54692bbd1a"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/MASTER.md",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "fc3665a12fc6d3351919c74b0cc490008551a9b2e83984d01125dc5e73da0d49"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/RECOVERED-STATUS.md",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "2f1ce6f84eeff252ae6e6c0e674665c3bf8fcd1bf93dc9e7827ce09b171fb622"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/OFFLINE-EDITOR.md",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "b150b94bc6f3f7ac3f208e7dce4b7475858c14b50310e5bb0cd8a8b48501580d"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/PROTOCOL.md",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "5fa88f3c5dcb9b6ffa36786c73bc73d7610ada58830accd8d1b27657783ba416"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/native/JimCommanD.swift",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "b3aa25745dab60c9142d51d430c5592b5eb94eca5f4131b387d2fc04dc9b7250"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/native/README.md",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "4e301655242b068ddbfaaadb1f7a6cff5680940896eff6a066737381ddd41c60"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/native/build.sh",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "ae2935b0955d05c193507675e575cc44bbaa798aa090b2471c4a0625f544d8aa"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/native/Info.plist",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "daf54c69da52ce255a39ed7edd9d084c27c748f2666c6567b63a91db76eb7615"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/build-macos.sh",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "336bae38f0817ec3760b0c391aca8b92ba71532c5e69773356e4cb5e2c007e54"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/index.html",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "532f0299fa0d2f85075370d731c01602d40c3a8454ef07c0840153a8cacbae26"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/build-web.mjs",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "5cc5095707426e3f2fdfad015a63f0d38f8b7bd51df03eff7369208087b4688f"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/README.md",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "02082e949eb269cb683f00d6001535a8407e97c8ebd5c48eceb1abc68b38d7d8"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/package.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "fa5badf11f1b169e8c088fde82f7238fe6b29cfd5749766caebf7fa32ab1b01e"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/serve.mjs",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "68759920fa916b190517fc93e285c4e91dcfe58cefc20e03bb43d267ed17af31"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/macos/MosaicMidi.m",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "ac8f01eff2ff5257f83ab6d71eb290032c6b702f33756ec641e9e3c3720887b3"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/macos/MosaicMidiTest.m",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "3cbfaac331a28a66ff5b0e0f695056b8d7f6f6301e7a571002ad8d2e42b4ad4e"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/macos/main.m",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "f0914ff8c4be83ac69a31d95f1b7a2738a88122da8001e62dea307535e5e7d1a"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/macos/Info.plist",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "8eb5d806e1a44350c6d4a83d34fd6b6e7de9c554dc78d15fcd220f3f0a3c7975"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/macos/MosaicMidi.h",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "ce90652efde5cbd546c0242aad5d02d9bb3f71b517e496a84bfe6608e8523ad3"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/test/captured-inventory.test.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "0225f0c83e32e0b108ff79e01180cb3e06b1073788dfb2cde32ad0c9960b01fe"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/test/ir-conversion.test.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "907109039c335bffe7e07d4c226eaf3d54508f3b586ac12da0b16c15dfac1350"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/test/slot-map.test.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "95fcf01b09c4c5da66297c14289ada9581ce55aa1a31e5bb6357bfc644964747"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/test/effect-types.test.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "767a263604077f7c7bfc10a85233c2dffdc3c92071ddc6c34b6a5b5c7a16cffd"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/test/sysex.test.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "0cfed0107d2391dc8aab6ec201c2dfbcf15d9b3ab4f9aaa19af14329fba398ad"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/test/hardware-midi.test.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "dd81090e465f76586134665203f7acf5bf6ed5b21ed271f5f8b58b874277f098"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/test/file-validation.test.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "200a5841a64692a1a05e25f675491f2868b1992f88bc90be62d875ac5baa81b5"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/test/midi-events.test.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "b2be0cc7a54f12dee9783d03127488a51bc132bd30134748ce7951aaeb12c863"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/hardware-capture/amp_probe_test.c",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "6a00ed9ee68dcc81abc51d21058ff86a32d6a1af53cd62659b9bb79585a3c249"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/hardware-capture/amp_slot_probe.c",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "c6860549c9a3d19ca4e51e063c2a6ab5e5febf791caa255c3814ca42a027a842"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/hardware-capture/midi_probe.c",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "0cd29105a4a980b645f139a4d2d2c477f59af2c00c235ab35af08d22aa73b106"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/hardware-capture/footswitch_monitor.c",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "973acdede9f234a0142cf2e77a30f4ac8a7bf646476951c8f453788c184aa2d2"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/hardware-capture/run_probes.sh",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "fb77b8601c9ff9e746b298a756d544366d943c17faf0813638c3b4caef9ebda5"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/hardware-capture/bluetooth_probe.m",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "262cca71100e72638319afb174bebc9bfe3d57b00d06e22c2862919aa81b9754"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/hardware-capture/HARDWARE_FINDINGS.md",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "c2126b08ea54527aa9c1ba2e9f2c86e6b780831ec42bff57bf61aed32f894674"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/hardware-capture/ble_probe.m",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "021206e64c004c01b7e755a358ead42e443986830ca06b0d4834260b23fad72a"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/styles.css",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "552c120b1bfecfc52be5dd85714528bc9c786a83c19a9476e30a18427fb1c786"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/main.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "44c08fbd76725431fc0f0bd7f344e5544d1af1e784dc7bfba201f1120758e505"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/effects.css",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "ce4503019c247a13508f6aec57ec7b95839e61bf66420a9a8bc307129834a673"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/app.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "56bc52e885dde724adf950c7828ad1695f696073202c66cd2cc6bd149e3566f1"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/core/capture-store.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "27759ca85537f350865996269c308c8a7a4cfb1954f72096312eddbb10d44fb7"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/core/wave-format.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "6c497179955b52762d07fce389e3fa184552364340ef891051b8c74b0d059c21"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/core/preset-store.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "ed0be3b8596c2f7c0b0f3ccf17cea636f92779a8a91a0ed7362635a7a5f1e88a"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/core/ir-conversion.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "eabd5bedde7e3810d7a65ebf5ad4282bad44ad1dfadcd832426749ff6b7f5f4c"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/core/captured-inventory.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "88c18240827b9e80f2e336480dcbc3dfd63aa582de096cf35fec7fc35d4dda36"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/core/effect-types.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "1dfac79cdd9acd7fad3be102b651d25816b9944abd850243150776e6fcef8b94"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/core/slot-map.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "b04e45077e68c0d3d12ef589c0dcf3d34d97dbe095d88ec9d9db3b140a4dcdc7"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/core/file-validation.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "9c0605e19c2c9434699360aa3e41396860d03b465eed2a1a3a371b2ca0f61e96"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/transports/hardware-midi.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "2c1dc8ccc708ea2b8a196ad7d3cb13bb30b00153cbb1dd561ca686f4591b4e1f"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/transports/simulated-mosaic.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "f732ddbca3aa98392d1dc0bd8e9326a0d504a6219fd7865cdcddd36a6c004e10"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/protocol/sysex.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "586711122db98922782c49a3b11ee2e863846cfe6ade73b6698f94c9fa764e76"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/local-midi/src/protocol/midi-events.js",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "5ac6b85b473a879acfdcbdfa4543c8ca6abe93baa2bda85a8e5f7509c714d6a7"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/backend/test_protocol.py",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "c812eef583f4a325bd3bd613ef1ca90f57692200f836c31b32f5de035d9aa881"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/backend/protocol.py",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "d8cf37346340199bb7220db59fe86858e51577c23ded002daf290151bc0e99c7"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/backend/inspect_midi.py",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "3c925b5166e329039c1f929c4ebc6b412e6d6153e5e40eadba84bbf9394bedb2"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/backend/midi-check.html",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "a74de82ae17a9aea0406f39098f22e2cb1e18e50772aca4e015c104377127de2"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/pnpm-lock.yaml",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "811aecd91f12d4f77c1b88c0ea1edd5127b6bf2150e668e62659cadaac366460"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/index.html",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "2283e8addc45fdb4878b2cbfdc52e36ba21f48017d4908a865a96537667c901c"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/.gitignore",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "eee6568c404ffb70b9e32300fe6f08ffc8defd139e4a4c1d973c85701904322d"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/package-lock.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "e73c46458bdaa5ce34cae6d581d8d5192de8e54b375b04cf9d6c35a9b957b2f1"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/package.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "5ece0b0ec2497377db321e4ce6d4f1869655b05108ec984ab09471c312d60c78"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/.gitattributes",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "fdd53ecc7bf79a69d3ef228ec98e0151f10e02702b90b553f04785b61db68354"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/tsconfig.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "9a1e96d63eaccd5416b2f78ecaccf2b3a27ca71e213fa5859cf5349c66123bf9"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/vite.config.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "63ed87b3445f8424b38769bc74c47fb49e321914acbfd494cb8d5908375ac0e3"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/.mise.toml",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "6d2834ef5f78a7dc4c384570a62b895137fdf63df171d237f0747932bd001435"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/tests/amplifiers.test.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "1345badcd25e456a154b6e1e6a459631ff0743bfc8d6b041de9e0bfbd40ec335"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/tests/controller.test.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "6f0c2c03e829e5fa28db063dd7631d6c6bd1c88f274b99208d39f91d160b2581"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/tests/assets.test.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "e00c01ee618e2bbadbf18380341778c37c8eb4e4ab84e7d5e33783068f00c309"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/tests/project.test.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "da93556062f356ce15a344d525b15a46c87467beb612cecea39e0d46fadf7523"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/project.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "ea2d57b261a8476a27a00d936ab25225a4a73a421930121b56042541b42945c3"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/App.tsx",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "7f44621fa0d8e8eaaa11a5919ea9bdcebad37376a06246b533a3eed011c3d184"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/main.tsx",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "5f49dce6e6cc4b5d678cf529ef892af0ab7dfa6afb300b11ad559224019b8b05"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/useProject.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "4cd240d4a6392511b3d543edf42ea2b4015f698b0793074156e2d16fa70880a6"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/assets.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "fca454026866dae249e99a0bd784aede4469fafc2f2faefdaa770898f129e350"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/MidiDiagnostics.tsx",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "5d13238cb7254d4e649b93632e32b30e89740494fcd7aa2693b79914f371e9ad"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/index.css",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "dbeeadb57a880b1452c3860c80556e1aead47bda6fac6769b8b1d9e576f1788e"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/model.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "9772e01f5eec2429b49d5402822353a72075dbd1855ec3cbb21440cce1132158"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/LibraryPanel.tsx",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "413be1e53f97790afdca70903286b747cf7021bbec372866eebca7a920ac29c4"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/vite-env.d.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/amplifiers.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "b77ac6dbfd27ba5a7a0fbb17946679ce136aa728c6e0cc1f91a755f026706107"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/gui/src/controller.ts",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "7c9479a5353fe8f21a25d8a6b00bc6e63cbe18e6ed71b3bb7b2bb96d52ef10da"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/recovered-live-midi-evidence.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "4aaf5cd7a04cce810601044a89d1a327e36c3c1539adbf15a45ba0886affeef3"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/gui-source-export.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "040d8735fcd4f39618decb09908786710e2890240cdedf0d747a17245d6174bf"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/native-linkage.txt",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "df07e78a9d69bb58414960cf154c95e9ab94993dac5f0fde700d5d4a25ca273d"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/device-observations.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "48dde6c8cb382c17d0e95d4a77a276e812fcaabfa7c2630c6fb1a4f61cd31c81"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/protocol-assembly.txt",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "a2e819966e2cdbbc53802902f36274686b73b6e486af2273b2ebbd367a349658"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/coremidi-diagnostic.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "3b2ecfaf1a49fc53f4790af5335f8a1ce83315e0d008b2aad156a902fbce2837"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/inventory.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "b8353d26d6bc9599122e6be177518ff1255b0fc727c21a85130faee62c987b1f"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/verification.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "7f75aa5347f82665c41133636dd00095905577cfaf3c9aa2dc08082a0ada0c50"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/slotinfo.txt",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "0aa1c870d8e4a65f3d5225cce7f95e7716afe5f7cd9733edc302c3c509504e61"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/web-midi-diagnostic.json",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "2376c9d2a82c103211d3a7ce6a906f5c132efe72e475c41e1766346747d24281"
+    },
+    {
+      "path": "archive/recovered-2026-09-09/reference/offsets.txt",
+      "source_group": "archive/recovered-2026-09-09",
+      "sha256_before_publication_cleanup": "4a5aac6998c4a13c7b4801998d59c6ec55edbfd0c3bf990268ab8e54692bbd1a"
+    },
+    {
+      "path": "archive/early-offline-editor/MASTER.md",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "0348eeb5638ddbd937ad06bbf45b2c0116af50186982c08ceb284bbd0dc6f2dd"
+    },
+    {
+      "path": "archive/early-offline-editor/OFFLINE-EDITOR.md",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "c3ae58416e11504d064b60c25984e405ea41217280a3a83b2ce1c208fb53479a"
+    },
+    {
+      "path": "archive/early-offline-editor/PROTOCOL.md",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "9d3309911492707f894d1b8d48dbf12231f55d13865b26722bcc5669832fe0ef"
+    },
+    {
+      "path": "archive/early-offline-editor/native/JimCommanD.swift",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "6f9d01b9164dd9bf6b338313a65aabeee6fc089f06f50493077df083294736dd"
+    },
+    {
+      "path": "archive/early-offline-editor/native/README.md",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "4e301655242b068ddbfaaadb1f7a6cff5680940896eff6a066737381ddd41c60"
+    },
+    {
+      "path": "archive/early-offline-editor/native/build.sh",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "09833827c64dbd4ab76295b750ed8a041c0b5c5f634102a7c8159011f3d6f71f"
+    },
+    {
+      "path": "archive/early-offline-editor/native/Info.plist",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "5ff768d7e787f74755fbb4a3f282c5240e64bb9b6f84a5b2c3b92877fe5b6c6b"
+    },
+    {
+      "path": "archive/early-offline-editor/backend/test_protocol.py",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "c812eef583f4a325bd3bd613ef1ca90f57692200f836c31b32f5de035d9aa881"
+    },
+    {
+      "path": "archive/early-offline-editor/backend/protocol.py",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "b11db320fa37dabcec82663b7e42b3a70a60e4cd6d3ee1c476da956d00fbf7e9"
+    },
+    {
+      "path": "archive/early-offline-editor/backend/inspect_midi.py",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "3c925b5166e329039c1f929c4ebc6b412e6d6153e5e40eadba84bbf9394bedb2"
+    },
+    {
+      "path": "archive/early-offline-editor/backend/midi-check.html",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "a74de82ae17a9aea0406f39098f22e2cb1e18e50772aca4e015c104377127de2"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/pnpm-lock.yaml",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "811aecd91f12d4f77c1b88c0ea1edd5127b6bf2150e668e62659cadaac366460"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/index.html",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "2283e8addc45fdb4878b2cbfdc52e36ba21f48017d4908a865a96537667c901c"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/.gitignore",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "eee6568c404ffb70b9e32300fe6f08ffc8defd139e4a4c1d973c85701904322d"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/package-lock.json",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "e73c46458bdaa5ce34cae6d581d8d5192de8e54b375b04cf9d6c35a9b957b2f1"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/package.json",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "5ece0b0ec2497377db321e4ce6d4f1869655b05108ec984ab09471c312d60c78"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/.gitattributes",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "fdd53ecc7bf79a69d3ef228ec98e0151f10e02702b90b553f04785b61db68354"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/tsconfig.json",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "9a1e96d63eaccd5416b2f78ecaccf2b3a27ca71e213fa5859cf5349c66123bf9"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/vite.config.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "63ed87b3445f8424b38769bc74c47fb49e321914acbfd494cb8d5908375ac0e3"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/.mise.toml",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "6d2834ef5f78a7dc4c384570a62b895137fdf63df171d237f0747932bd001435"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/tests/controller.test.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "771d5ed6bc6f18d3de69add4a01e79f28aac4c00f8f4bcde208445846598f682"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/tests/assets.test.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "00347a1bd5d9c66f182e16a1157bdc08689f6a67815cb1df0f7fbad07c5cf214"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/tests/project.test.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "e9b0c70f607e40044b0eb9abdc84eb9ffb3f223e7d8b8cbaf9ef3b470c81fd7d"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/project.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "2e045d7930043cb400f36a9d269acedd5721afcfa86c31f0d427146d4410c14b"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/App.tsx",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "af56c21b4073dc4287c17232aa6b78f60a7b3c139b2ad9a691d82e826b8e5167"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/main.tsx",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "5f49dce6e6cc4b5d678cf529ef892af0ab7dfa6afb300b11ad559224019b8b05"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/useProject.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "4cd240d4a6392511b3d543edf42ea2b4015f698b0793074156e2d16fa70880a6"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/assets.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "1bad579baa2e60494d5876c8ce1df04ee5616bc7fb66944df2d9c1bb1eaa7622"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/MidiDiagnostics.tsx",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "5d13238cb7254d4e649b93632e32b30e89740494fcd7aa2693b79914f371e9ad"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/index.css",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "dbeeadb57a880b1452c3860c80556e1aead47bda6fac6769b8b1d9e576f1788e"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/model.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "9772e01f5eec2429b49d5402822353a72075dbd1855ec3cbb21440cce1132158"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/LibraryPanel.tsx",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "413be1e53f97790afdca70903286b747cf7021bbec372866eebca7a920ac29c4"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/vite-env.d.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/amplifiers.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "b77ac6dbfd27ba5a7a0fbb17946679ce136aa728c6e0cc1f91a755f026706107"
+    },
+    {
+      "path": "archive/early-offline-editor/gui/src/controller.ts",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "5a699e7b431f9a5e6df4adde46387a0cd6430c7682282619054f46f6f813fba9"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/gui-source-export.json",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "040d8735fcd4f39618decb09908786710e2890240cdedf0d747a17245d6174bf"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/native-linkage.txt",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "df07e78a9d69bb58414960cf154c95e9ab94993dac5f0fde700d5d4a25ca273d"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/device-observations.json",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "48dde6c8cb382c17d0e95d4a77a276e812fcaabfa7c2630c6fb1a4f61cd31c81"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/protocol-assembly.txt",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "a2e819966e2cdbbc53802902f36274686b73b6e486af2273b2ebbd367a349658"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/coremidi-diagnostic.json",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "3b2ecfaf1a49fc53f4790af5335f8a1ce83315e0d008b2aad156a902fbce2837"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/inventory.json",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "b8353d26d6bc9599122e6be177518ff1255b0fc727c21a85130faee62c987b1f"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/verification.json",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "1f52aecc7c75b53de013e57e058b08e50351519279bc68e7bb02fd545505cd78"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/slotinfo.txt",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "0aa1c870d8e4a65f3d5225cce7f95e7716afe5f7cd9733edc302c3c509504e61"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/web-midi-diagnostic.json",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "2376c9d2a82c103211d3a7ce6a906f5c132efe72e475c41e1766346747d24281"
+    },
+    {
+      "path": "archive/early-offline-editor/reference/offsets.txt",
+      "source_group": "archive/early-offline-editor",
+      "sha256_before_publication_cleanup": "4a5aac6998c4a13c7b4801998d59c6ec55edbfd0c3bf990268ab8e54692bbd1a"
+    },
+    {
+      "path": "archive/import-audit/build-web.mjs",
+      "source_group": "archive/import-audit",
+      "sha256_before_publication_cleanup": "fbfc614dd66412ce6c5c6df016c624bbea2294259b6089596a7c0feb83df8503"
+    },
+    {
+      "path": "archive/import-audit/package.json",
+      "source_group": "archive/import-audit",
+      "sha256_before_publication_cleanup": "fa5badf11f1b169e8c088fde82f7238fe6b29cfd5749766caebf7fa32ab1b01e"
+    },
+    {
+      "path": "archive/import-audit/test/ir-conversion.test.js",
+      "source_group": "archive/import-audit",
+      "sha256_before_publication_cleanup": "907109039c335bffe7e07d4c226eaf3d54508f3b586ac12da0b16c15dfac1350"
+    },
+    {
+      "path": "archive/import-audit/test/file-validation.test.js",
+      "source_group": "archive/import-audit",
+      "sha256_before_publication_cleanup": "200a5841a64692a1a05e25f675491f2868b1992f88bc90be62d875ac5baa81b5"
+    },
+    {
+      "path": "archive/import-audit/src/main.js",
+      "source_group": "archive/import-audit",
+      "sha256_before_publication_cleanup": "44c08fbd76725431fc0f0bd7f344e5544d1af1e784dc7bfba201f1120758e505"
+    },
+    {
+      "path": "archive/import-audit/src/core/capture-store.js",
+      "source_group": "archive/import-audit",
+      "sha256_before_publication_cleanup": "a9ceb6d4ebb1737e173e35713be6772a66451559655512bb5bff6b9b11e00e5d"
+    },
+    {
+      "path": "archive/import-audit/src/core/wave-format.js",
+      "source_group": "archive/import-audit",
+      "sha256_before_publication_cleanup": "6c497179955b52762d07fce389e3fa184552364340ef891051b8c74b0d059c21"
+    },
+    {
+      "path": "archive/import-audit/src/core/ir-conversion.js",
+      "source_group": "archive/import-audit",
+      "sha256_before_publication_cleanup": "9d5639d5a6b645a1de1d041fefc41891b91b5de2831e2499e94789affa92fd9e"
+    },
+    {
+      "path": "archive/import-audit/src/core/file-validation.js",
+      "source_group": "archive/import-audit",
+      "sha256_before_publication_cleanup": "8d4ac68ed642bfa4d53eb1a0afb74d1e7eb99954adeee144e8d34eb122aea223"
+    }
+  ],
+  "cleaned_files": [
+    "research/report-source.md",
+    "hardware-capture/bluetooth-status.m",
+    "hardware-capture/run_probes.sh",
+    "hardware-capture/bluetooth_probe.m",
+    "hardware-capture/HARDWARE_FINDINGS.md",
+    "docs/RECOVERED-STATUS-2026-09-09.md",
+    "archive/offline-editor/MASTER.md",
+    "archive/offline-editor/PROTOCOL.md",
+    "archive/early-offline-editor/MASTER.md",
+    "archive/early-offline-editor/PROTOCOL.md",
+    "archive/recovered-2026-09-09/MASTER.md",
+    "archive/recovered-2026-09-09/RECOVERED-STATUS.md",
+    "archive/recovered-2026-09-09/PROTOCOL.md",
+    "archive/promo/PromoVideo.swift",
+    "archive/recovered-2026-09-09/reference/recovered-live-midi-evidence.json",
+    "archive/recovered-2026-09-09/reference/gui-source-export.json",
+    "archive/recovered-2026-09-09/reference/native-linkage.txt",
+    "archive/recovered-2026-09-09/reference/device-observations.json",
+    "archive/recovered-2026-09-09/reference/inventory.json",
+    "archive/recovered-2026-09-09/local-midi/hardware-capture/run_probes.sh",
+    "archive/recovered-2026-09-09/local-midi/hardware-capture/bluetooth_probe.m",
+    "archive/recovered-2026-09-09/local-midi/hardware-capture/HARDWARE_FINDINGS.md",
+    "archive/early-offline-editor/reference/gui-source-export.json",
+    "archive/early-offline-editor/reference/native-linkage.txt",
+    "archive/early-offline-editor/reference/device-observations.json",
+    "archive/early-offline-editor/reference/inventory.json",
+    "archive/offline-editor/reference/gui-source-export.json",
+    "archive/offline-editor/reference/native-linkage.txt",
+    "archive/offline-editor/reference/device-observations.json",
+    "archive/offline-editor/reference/inventory.json"
+  ]
+}

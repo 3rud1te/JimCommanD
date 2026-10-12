@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JimCommanD MIDI diagnostic</title>
+<style>body{font:16px system-ui;margin:40px auto;max-width:850px;padding:0 24px;background:#10151c;color:#e7edf5}button{font:inherit;padding:12px 18px;border:0;border-radius:8px;background:#64d8ee;color:#07202b;cursor:pointer}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#1c2631;padding:22px;border-radius:12px}p{line-height:1.6;color:#b9c8d7}</style>
+<h1>JimCommanD MIDI diagnostic</h1>
+<p>This local diagnostic requests ordinary MIDI access and lists the ports Chrome can see. It sends no MIDI messages and makes no firmware, preset, or audio changes.</p>
+<button id="connect">Check MIDI ports</button>
+<pre id="result" aria-live="polite">Ready. No MIDI access requested.</pre>
+<script>
+const result = document.getElementById('result');
+let access;
+function display(value){result.textContent=JSON.stringify(value,null,2)}
+function ports(){display({status:'enumerated',sysexEnabled:access.sysexEnabled,sentMessages:0,
+  inputs:[...access.inputs.values()].map(p=>({id:p.id,name:p.name,manufacturer:p.manufacturer,state:p.state,connection:p.connection})),
+  outputs:[...access.outputs.values()].map(p=>({id:p.id,name:p.name,manufacturer:p.manufacturer,state:p.state,connection:p.connection}))});}
+document.getElementById('connect').onclick=async()=>{
+ if(!navigator.requestMIDIAccess){display({status:'unsupported',secureContext:isSecureContext,sentMessages:0});return;}
+ display({status:'requesting',sentMessages:0});
+ try{access=await navigator.requestMIDIAccess({sysex:false});access.onstatechange=ports;ports();}
+ catch(e){display({status:'error',name:e.name,message:e.message,sentMessages:0});}
+};
+</script></html>

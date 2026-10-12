@@ -1,0 +1,30 @@
+name: Offline checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  javascript-and-codec:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Current JavaScript tests
+        run: npm test
+      - name: Build web bundle
+        run: npm run build
+      - name: Check bundled JavaScript
+        run: node --check dist/app.bundle.js
+      - name: Preserved Python protocol tests
+        run: python3 -m unittest discover -s archive/offline-editor/backend -v

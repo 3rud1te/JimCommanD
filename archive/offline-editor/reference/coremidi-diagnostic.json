@@ -1,0 +1,7 @@
+{
+  "architecture": "x86_64",
+  "sent_messages": 0,
+  "client_status": -10833,
+  "status": "service_error",
+  "error": "CoreMIDI client creation failed; this does not prove the pedal is disconnected"
+}

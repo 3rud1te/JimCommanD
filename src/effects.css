@@ -1,0 +1,56 @@
+.effect-picker {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 0 0 22px;
+  border-bottom: 1px solid #272c34;
+}
+
+.effect-picker label {
+  color: #7f8896;
+  font: 700 10px ui-monospace, monospace;
+  letter-spacing: .12em;
+}
+
+.effect-picker select,
+.parameter-select {
+  color: #eef2f7;
+  background: #1c2027;
+  border: 1px solid #3b424e;
+  border-radius: 8px;
+}
+
+.effect-picker select {
+  min-width: 230px;
+  margin-left: 12px;
+  padding: 10px 34px 10px 12px;
+}
+
+.effect-picker span {
+  color: #737d8b;
+  font: 10px ui-monospace, monospace;
+  letter-spacing: .08em;
+}
+
+.parameter-select {
+  width: 100%;
+  margin-top: 14px;
+  padding: 7px 6px;
+}
+
+.control small {
+  display: block;
+  margin-top: 6px;
+  color: #56606e;
+  font: 9px ui-monospace, monospace;
+  letter-spacing: .08em;
+}
+
+@media (max-width: 800px) {
+  .effect-picker {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

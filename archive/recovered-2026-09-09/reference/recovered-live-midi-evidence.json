@@ -1,0 +1,26 @@
+{
+  "source_thread": "PRIVATE_THREAD",
+  "recovered_on": "2026-09-09",
+  "records": [
+    {
+      "timestamp": "2026-09-08T23:34:08.690Z",
+      "role": "user",
+      "text": "bash-3.2$ /tmp/mosaic\\_probe\nMIDI sources:\n\u00a0 [0] Network Session 1\n\u00a0 [1] IAC Driver Bus 1\n\u00a0 [2] IAC Driver Bus 2\n\u00a0 [3] Mosaic\n\nMIDI destinations:\n\u00a0 [0] Network Session 1\n\u00a0 [1] IAC Driver Bus 1\n\u00a0 [2] IAC Driver Bus 2\n\u00a0 [3] Mosaic\n\u00a0 [4] MIDI Monitor (Untitled)\n\nUSB Mosaic found.\nTX: F0 7D 4E 43 70 00 02 01 00 36 00 01 00 00 00 F7\u00a0\n\nListening for 5 seconds...\nRX (48 bytes): F0 7D 4E 43 71 00 02 01 00 36 00 00 1E 10 00 00 01 00 52 2F 00 02 00 1A 44 0C 56 1A 1A 00 00 4D 61 72 73 68 61 00 6C 6C 20 31 39 35 39 00 42 4A\u00a0\nRX (2 bytes): 00 F7\u00a0\nDone.\nbash-3.2$\u00a0\n"
+    },
+    {
+      "timestamp": "2026-09-08T23:47:18.572Z",
+      "role": "user",
+      "text": "Done.\nbash-3.2$ /tmp/mosaic\\_amp\\_probe 1\nAMP probe v2; wire slot 1 (UI slot 2)\nPrepared request: F0 7D 4E 43 70 00 02 01 00 36 00 01 00 00 01 F7\u00a0\nQuerying AMP wire slot 1 (UI slot 2)\nTX: F0 7D 4E 43 70 00 02 01 00 36 00 01 00 00 01 F7\u00a0\nListening for 5 seconds...\nRX (48 bytes): F0 7D 4E 43 71 00 02 01 00 36 00 00 1E 10 00 01 01 00 52 2F 00 08 00 64 5F 3C 44 1A 1A 00 00 42 6F 67 58 54 43 00 32 00 00 00 00 00 00 00 00 00\u00a0\nRX (2 bytes): 00 F7\u00a0\nDecoded (38 bytes): 02 01 00 36 00 00 1E 00 01 01 00 D2 2F 00 00 64 5F BC 44 1A 1A 00 42 6F 67 58 54 43 32 00 00 00 00 00 00 00 00 00\nsequence=1 opcode=0x36 status=0 payloadLength=30\nreturned wire slot: 1\nmetadata: 01 01 00 D2 2F 00 00 64 5F BC 44 1A 1A 00\nmodel: BogXTC2\n\nD\n"
+    },
+    {
+      "timestamp": "2026-09-08T23:51:25.042Z",
+      "role": "user",
+      "text": "AMP INVENTORY (UI slot / wire index / result)\n01 / 00 / Marshall 1959BJ\n02 / 01 / BogXTC2\n03 / 02 / Orange Rockerve\n04 / 03 / Jazz120\n05 / 04 / 2555X Ch2+ lync\n06 / 05 / Fd65Dk\n07 / 06 / SUHR SL100\n08 / 07 / MarDSL1\n09 / 08 / MarDSL2\n10 / 09 / Mar8001\n11 / 10 / Mar8002\n12 / 11 / 90sDualRec-Full\n13 / 12 / MesR2\n14 / 13 / MesR3\n15 / 14 / OgG120\n16 / 15 / 1966BluesBreake\n17 / 16 / Pey51502\n18 / 17 / Pey6505\n19 / 18 / LION custom sho\n20 / 19 / RanT22\n21 / 20 / Tonebender MK I\n22 / 21 / SlashRig\n23 / 22 / ST\\_SF300\\_FUZZ2\\_\n24 / 23 / Mesa MK IV 6L6-\n25 / 24 / Big Muff Sustai\n26 / 25 / marshall bluesb\n27 / 26 / Marshall JCM 80\n28 / 27 / Rockerverb MK3\n29 / 28 / Hiw320\n30 / 29 / MarSup\nDone.\nuser\\@J1M \\~ %\u00a0\n"
+    },
+    {
+      "timestamp": "2026-09-09T15:23:59.112Z",
+      "role": "user",
+      "text": "carry Okay. So what I want you to do is to carry on. You can do this autonomously. You have Bluetooth connection. I've checked on MIDI monitor. The Mosaic is responding when I push all the switches, so it will respond. So you should be able to work out all the coding for yourself now and relate that to GM command. Are you with me?\n"
+    }
+  ]
+}

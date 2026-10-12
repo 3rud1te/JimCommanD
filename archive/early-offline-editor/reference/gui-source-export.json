@@ -1,0 +1,102 @@
+{
+  "source": "Figma Make Download code, authenticated Chrome tab",
+  "file_key": "PRIVATE_FIGMA_FILE",
+  "export_date": "2026-09-07",
+  "zip_sha256": "df2b822b3a90718a6c79c11617d7c835e48dde8d076380b80517e60852e0456e",
+  "zip_bytes": 29545,
+  "crc_check": "passed",
+  "files": [
+    {
+      "path": ".figma/make/analyze-routes",
+      "sha256": "7a81578bcfa5ba5f2105d7165e0cd2d8d1c6151d2a0c5ba766b3ef1c824ee788"
+    },
+    {
+      "path": ".figma/make/deploy",
+      "sha256": "fe35b0aff744f5aa8bb16eb1590c720ff6b0ff4bce9ede78f73e02bbfd7e7f3f"
+    },
+    {
+      "path": ".figma/make/deploy-preview",
+      "sha256": "3b82ce85bad03ce7b0e4e288a6e40e5caf119c41a392de3d3420ff17c42d0e8b"
+    },
+    {
+      "path": ".figma/make/dev",
+      "sha256": "91f795e632539988b0fe3de57084839f41a827ba5c274590388f7d0650ec2314"
+    },
+    {
+      "path": ".figma/make/dev.json",
+      "sha256": "e78b91a2a63456a6eab9756c3fb6d767dfe3673adcef1dcfe4f52c010238c3e7"
+    },
+    {
+      "path": ".figma/make/format",
+      "sha256": "254598ef0d1a61c3abc2a426c7065487ca140c8f9b90e4d66ea05dff20832335"
+    },
+    {
+      "path": ".figma/make/install",
+      "sha256": "90705d33ffd6b0700def7f2f304fd24ae04e17af5fc7d8437df44cf546d64891"
+    },
+    {
+      "path": ".figma/make/langserver",
+      "sha256": "e6b9034d28bbc82e6333a3b77f8d5fd593ac54eeed7e4e76569329fdbb534fff"
+    },
+    {
+      "path": ".figma/make/site.json",
+      "sha256": "2b0ddd96bf42837d661665251f6a0a6daa3f46d3b8a7ea278f7d7ef03de53a43"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "fdd53ecc7bf79a69d3ef228ec98e0151f10e02702b90b553f04785b61db68354"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "eee6568c404ffb70b9e32300fe6f08ffc8defd139e4a4c1d973c85701904322d"
+    },
+    {
+      "path": ".mise.toml",
+      "sha256": "6d2834ef5f78a7dc4c384570a62b895137fdf63df171d237f0747932bd001435"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "b39f6ead09e39e9f6eb5a132342519fb7bf9c77ab14522f0da38edf9224c6b77"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    {
+      "path": "index.html",
+      "sha256": "768eac67e6271681de61c23f1c94a6bf688607bbad2d0bccafd8f4bfe789a079"
+    },
+    {
+      "path": "package.json",
+      "sha256": "2e6f3ba99dbd8a4d567d2f058699451326aa73e3d95fb6a9e555654a99d4f7f2"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "811aecd91f12d4f77c1b88c0ea1edd5127b6bf2150e668e62659cadaac366460"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "bec06edc992020d492578845983082742980623d9843759f96fb32d1a58abc19"
+    },
+    {
+      "path": "src/index.css",
+      "sha256": "5c87bd81bf3def3ebb83fd96dbfec22f6a10b63c9760674e1682d0d84507c02f"
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "5f49dce6e6cc4b5d678cf529ef892af0ab7dfa6afb300b11ad559224019b8b05"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "9a1e96d63eaccd5416b2f78ecaccf2b3a27ca71e213fa5859cf5349c66123bf9"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "50552774d01b2ef4286318c617405005503c3aab583f30d842cdfebcaa7e7e59"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Generated output and dependencies, including archived projects
+node_modules/
+dist/
+build/
+.build/
+*.app/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+._*
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+.idea/
+.vscode/
+# Raw device captures may contain identifiers; publish reviewed fixtures instead.
+captures-local/

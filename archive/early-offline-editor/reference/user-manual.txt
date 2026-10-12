@@ -1,0 +1,1 @@
+The full vendor manual is retained locally. Obtain the Mosaic user manual from LIVTRA. Project findings are summarized in MASTER.md and PROTOCOL.md.

@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-07",
+  "host": {
+    "architecture": "x86_64",
+    "macOS": "26.6.2",
+    "build": "25G83"
+  },
+  "apps": [
+    {
+      "path": "<HOME>/Downloads/ToneCommand.app",
+      "version": "1.2.7",
+      "build": "26",
+      "bundle_id": "com.livtra.app",
+      "files": [
+        {
+          "path": "Contents/MacOS/ToneCommand",
+          "bytes": 77456,
+          "sha256": "9994f6b11a40a07565f61d3f52562b8db1cf115e68396fe2f61bc30339fcff86",
+          "file_type": "Mach-O 64-bit executable arm64"
+        },
+        {
+          "path": "Contents/Frameworks/liblivtra.dylib",
+          "bytes": 5420960,
+          "sha256": "96e79f38198a90074334604849e46e14fc707a6b8162afb90c01b2371f98c4cb",
+          "file_type": "Mach-O 64-bit dynamically linked shared library arm64"
+        },
+        {
+          "path": "Contents/Frameworks/App.framework/Versions/A/App",
+          "bytes": 6201200,
+          "sha256": "162035ea283a1d2eb10b509617fe25b1eb031e9fc40359b62424e09e7ca134f7",
+          "file_type": "Mach-O universal binary with 1 architecture: [arm64:Mach-O 64-bit dynamically linked shared library arm64]\n<HOME>/Downloads/ToneCommand.app/Contents/Frameworks/App.framework/Versions/A/App (for architecture arm64):\tMach-O 64-bit dynamically linked shared library arm64"
+        },
+        {
+          "path": "Contents/Frameworks/FlutterMacOS.framework/Versions/A/FlutterMacOS",
+          "bytes": 13425856,
+          "sha256": "ed9084305fbc18b22898c72d3d73acf6739c4e6934490e5e3ba18e282b41faed",
+          "file_type": "Mach-O universal binary with 1 architecture: [arm64:Mach-O 64-bit dynamically linked shared library arm64]\n<HOME>/Downloads/ToneCommand.app/Contents/Frameworks/FlutterMacOS.framework/Versions/A/FlutterMacOS (for architecture arm64):\tMach-O 64-bit dynamically linked shared library arm64"
+        },
+        {
+          "path": "Contents/Frameworks/libonnxruntime.1.27.0.dylib",
+          "bytes": 18542912,
+          "sha256": "dad09ed9b39eff71105836ae42769a66266152c96b627f7e7519267cc295ad55",
+          "file_type": "Mach-O 64-bit dynamically linked shared library arm64"
+        },
+        {
+          "path": "Contents/Resources/runtime/engine.dat",
+          "bytes": 287911776,
+          "sha256": "ec3d0441c82ba41c029d1bda0b0ed509561b4b89d04502a2a1c061e33af436e9",
+          "file_type": "data"
+        }
+      ]
+    },
+    {
+      "path": "<HOME>/Downloads/ToneCommand 2.app",
+      "version": "1.2.8",
+      "build": "33",
+      "bundle_id": "com.livtra.app",
+      "files": [
+        {
+          "path": "Contents/MacOS/ToneCommand",
+          "bytes": 94608,
+          "sha256": "dc2ad86d80e65d389f235608b595ba21a57a234c82502ff4b1aabe9c85824d8d",
+          "file_type": "Mach-O 64-bit executable arm64"
+        },
+        {
+          "path": "Contents/Frameworks/liblivtra.dylib",
+          "bytes": 5505088,
+          "sha256": "eca4ac591215199ba7e43ba8381c12a1a4a86ff4638359e2fcd0cdbbe44fe7e6",
+          "file_type": "Mach-O 64-bit dynamically linked shared library arm64"
+        },
+        {
+          "path": "Contents/Frameworks/App.framework/Versions/A/App",
+          "bytes": 6514032,
+          "sha256": "87531a393c7795a016fda54f8f4a922768109518d7409c701c1c69d100bd3c3d",
+          "file_type": "Mach-O universal binary with 1 architecture: [arm64:Mach-O 64-bit dynamically linked shared library arm64]\n<HOME>/Downloads/ToneCommand 2.app/Contents/Frameworks/App.framework/Versions/A/App (for architecture arm64):\tMach-O 64-bit dynamically linked shared library arm64"
+        },
+        {
+          "path": "Contents/Frameworks/FlutterMacOS.framework/Versions/A/FlutterMacOS",
+          "bytes": 13425856,
+          "sha256": "d214f5aaed30e5ae4d24dc04a2236a936c229a49f107c046df3d46a3488d372a",
+          "file_type": "Mach-O universal binary with 1 architecture: [arm64:Mach-O 64-bit dynamically linked shared library arm64]\n<HOME>/Downloads/ToneCommand 2.app/Contents/Frameworks/FlutterMacOS.framework/Versions/A/FlutterMacOS (for architecture arm64):\tMach-O 64-bit dynamically linked shared library arm64"
+        },
+        {
+          "path": "Contents/Frameworks/libonnxruntime.1.27.0.dylib",
+          "bytes": 18542912,
+          "sha256": "50ccd74ecd88cef842d22bd978d24dc7ee5710c3a780123a7445f595ac3d7b17",
+          "file_type": "Mach-O 64-bit dynamically linked shared library arm64"
+        },
+        {
+          "path": "Contents/Resources/runtime/engine.dat",
+          "bytes": 287911776,
+          "sha256": "ec3d0441c82ba41c029d1bda0b0ed509561b4b89d04502a2a1c061e33af436e9",
+          "file_type": "data"
+        }
+      ]
+    }
+  ],
+  "reference_files": [
+    {
+      "path": "<HOME>/Downloads/mosaic-1.10.fmu",
+      "bytes": 696556,
+      "sha256": "139ee62c4d726cfa6421c0c05b76b548fcfe6d6b58d2c75995d00c5b753dbe05"
+    },
+    {
+      "path": "<HOME>/Downloads/MOSAIC-User-Manual.pdf",
+      "bytes": 928993,
+      "sha256": "cca5b29cfcd8c4d7902447595f449523f4f689cd89b82a66c4403e3479cbfe65"
+    },
+    {
+      "path": "<HOME>/Downloads/MOSAIC-MIDI-Control-User-Guide-V1.pdf",
+      "bytes": 232224,
+      "sha256": "8fb2579c20d1b65328f289f28f6da082132773c2cf396d1a88d0baeee1ee62a5"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+:focus-visible { outline: 2px solid #22d3ee; outline-offset: 4px; }
+body { margin: 0; background: #0a0a0b; color: #e4e4e7; }
+button, select, input { font: inherit; }

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-07",
+  "gui": {
+    "command": "npm run build",
+    "result": "passed",
+    "compiler": "TypeScript noEmit + Vite production build",
+    "output": "gui/dist",
+    "notes": ["relative asset paths", "offline font imports removed", "CSP limits the local bundle"]
+  },
+  "tests": {
+    "gui": {"command": "npm test", "passed": 19},
+    "protocol": {"command": "python3 -m unittest -v", "passed": 8}
+  },
+  "native": {
+    "command": "bash native/build.sh",
+    "result": "passed",
+    "target": "x86_64-apple-macosx12.0",
+    "architecture": "x86_64",
+    "bundle": "JimCommanD.app",
+    "signature": "ad-hoc; not Developer ID signed or notarized",
+    "runtime": "AppKit/WKWebView; no MIDI, Bluetooth, USB, firmware or transfer APIs"
+  },
+  "not_tested": [
+    "live CoreMIDI/BLE-MIDI enumeration",
+    "pedal replies or readback",
+    "NAM/IR upload, commit or selection",
+    "native chooser/save panel smoke test on an Intel Mac",
+    "installed firmware version"
+  ]
+}

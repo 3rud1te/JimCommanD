@@ -1,0 +1,12 @@
+{
+  "name": "jimcommand",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build-web.mjs",
+    "build:mac": "sh build-macos.sh",
+    "start": "node serve.mjs",
+    "test": "node --test"
+  }
+}

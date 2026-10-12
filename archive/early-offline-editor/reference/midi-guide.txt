@@ -1,0 +1,1 @@
+The full vendor MIDI guide is retained locally. Obtain the Mosaic MIDI Control User Guide from LIVTRA. Project mappings are summarized in PROTOCOL.md.

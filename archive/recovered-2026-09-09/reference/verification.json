@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-07",
+  "gui": {
+    "command": "npm run build",
+    "result": "passed",
+    "compiler": "TypeScript noEmit + Vite production build",
+    "output": "gui/dist",
+    "notes": ["relative asset paths", "offline font imports removed", "CSP limits the local bundle"]
+  },
+  "tests": {
+    "gui": {"command": "npm test", "passed": 22},
+    "protocol": {"command": "python3 -m unittest -v", "passed": 8}
+  },
+  "native": {
+    "command": "bash native/build.sh",
+    "result": "passed",
+    "target": "x86_64-apple-macosx12.0",
+    "architecture": "x86_64",
+    "bundle": "JimCommanD.app",
+    "signature": "ad-hoc; not Developer ID signed or notarized",
+    "runtime": "AppKit/WKWebView; no MIDI, Bluetooth, USB, firmware or transfer APIs"
+  },
+  "amplifier_selector": {
+    "custom_slots": 20,
+    "built_in_catalogue_entries": 30,
+    "catalogue_source": "reference/user-manual.txt, English pages 15–16",
+    "browser_check": "Opened Choose amplifier and clicked Fender ’59 Bassman; selector and built-in detail updated correctly.",
+    "regressions": ["NAM metadata name survives export/import", "slot label updates on file replacement", "old version-1 drafts still load", "unknown built-in IDs rejected"]
+  },
+  "output_gain": {
+    "range_db": [-12, 12],
+    "step_db": 0.1,
+    "default_db": 0,
+    "stored_field": "outputGainDb",
+    "legacy_migration": "Old unitless outputLevel is validated, then replaced by neutral 0 dB; other draft settings are preserved.",
+    "tests": "Negative, neutral and boosted values survive export/import; out-of-range values are rejected. Hardware mapping remains unverified."
+  },
+  "not_tested": [
+    "live CoreMIDI/BLE-MIDI enumeration",
+    "pedal replies or readback",
+    "NAM/IR upload, commit or selection",
+    "native chooser/save panel smoke test on an Intel Mac",
+    "installed firmware version"
+  ]
+}

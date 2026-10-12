@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-07",
+  "ordinary_midi_only": true,
+  "sysex_requested": false,
+  "page_loaded": true,
+  "button_rendered": true,
+  "request_result": "pending at last browser observation",
+  "port_enumeration_confirmed": false,
+  "messages_sent": 0,
+  "server": "http://127.0.0.1:50004/midi-check.html",
+  "implementation_reference": "https://developer.chrome.com/blog/web-midi-permission-prompt?hl=en"
+}

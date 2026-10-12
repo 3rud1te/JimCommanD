@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JimCommanD</title>
+  <link rel="stylesheet" href="./src/styles.css" />
+  <link rel="stylesheet" href="./src/effects.css" />
+</head>
+<body>
+  <main class="window">
+    <header class="titlebar">
+      <div class="traffic"><i></i><i></i><i></i></div>
+      <div class="brand"><span class="brand-mark">◉</span> JimCommanD</div>
+      <label class="mode">DEVICE <select id="transport"><option value="simulator">Simulator</option><option value="hardware">Mosaic USB · live</option></select></label>
+      <button id="refreshInventory" disabled>Refresh model names</button>
+    </header>
+    <section class="presetbar">
+      <div><strong id="presetName">Preset 01</strong><small>75 PRESET LOCATIONS</small></div>
+      <label>SLOT <select id="presetSlot"></select></label>
+      <button id="savePreset">Save preset</button>
+    </section>
+    <nav id="chain" class="chain" aria-label="Signal chain"></nav>
+    <section class="editor">
+      <header><div><span id="blockDot"></span><strong id="blockTitle">Amplifier</strong></div><button id="bypass">Enabled</button></header>
+      <div id="parameters" class="parameters"></div>
+      <div id="library" class="library"></div>
+    </section>
+    <section id="midiActivity" class="midi-activity">
+      <header><div><i id="midiPulse"></i><strong>MOSAIC FOOTSWITCH INPUT</strong></div><div class="midi-actions"><button id="copyMidiLog">Copy log</button><button id="clearMidiLog">Clear</button></div></header>
+      <div class="midi-current"><strong id="midiLast">Select Mosaic USB to listen</strong><code id="midiBytes">—</code></div>
+      <ol id="midiLog" aria-label="Recent Mosaic MIDI events"></ol>
+    </section>
+    <footer><span id="connection"><i></i> SIMULATED MOSAIC</span><span id="status">Ready</span><span>INTEL MACINTOSH · USB MIDI</span></footer>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

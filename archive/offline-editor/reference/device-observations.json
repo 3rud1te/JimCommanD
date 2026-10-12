@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-07",
+  "usb": {
+    "source": "ioreg -p IOUSB -l -w 0",
+    "product": "Mosaic",
+    "manufacturer": "Ember",
+    "vendor_id": "0x33C3",
+    "product_id": "0x1302",
+    "serial": "REDACTED_SERIAL",
+    "link_bps": 12000000,
+    "observed": true
+  },
+  "bluetooth": {
+    "current_user_screenshot": "2026-09-07 at 04.20.38",
+    "audio": "Mosaic Audio appears connected (blue icon)",
+    "midi": "Mosaic Midi listed, grey in screenshot; active BLE-MIDI session not established by screenshot",
+    "prior_2026_09_06_test": "Mosaic Midi connected/interrogating in Bluetooth Inspector; standard MIDI service and characteristic recorded"
+  },
+  "coremidi": {
+    "client_creation_OSStatus": -10833,
+    "sources_returned": 0,
+    "destinations_returned": 0,
+    "interpretation": "client creation failed; do not interpret empty endpoint list as pedal absent",
+    "network_permission_retry": "same result"
+  },
+  "system_profiler": "USB empty; Bluetooth controllerInfo nil; contradicted by ioreg USB presence",
+  "messages_sent_to_pedal_this_task": 0
+}
